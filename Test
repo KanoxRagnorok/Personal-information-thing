@@ -1,0 +1,15 @@
+names = ['Edgar', 'Emma', 'Jake', 'Zain']
+ages = [17, 16, 18, 20]
+heights = [1.64, 1.67, 1.72, 1.68]
+has_laptop = True
+
+human_turn = input('Enter their name to read their personal information: ')
+  
+if human_turn == 'Edgar':
+  print(f'{names[0]} (5 letters in his name) is {ages[0]} years old, with the height of {heights[0]} meters.')
+elif human_turn == 'Emma':
+  print(f'{names[1]} (4 letters in her name) is {ages[1]} years old, with the height of {heights[1]} meters.')
+elif human_turn == 'Jake':
+  print(f'{names[2]} (4 letters in his name) is {ages[2]} years old, with the height of {heights[2]} meters.')
+elif human_turn == 'Zain':
+  print(f'{names[3]} (4 letters in his name) is {ages[3]} years old, with the height of {heights[3]} meters.')
